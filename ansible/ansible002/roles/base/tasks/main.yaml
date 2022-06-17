@@ -1,0 +1,12 @@
+---
+- name: create file
+  file:
+    path: /tmp/uj-file-1
+    state: touch
+
+
+- name: titkos file
+  copy:
+    src: titkos
+    dest: /tmp/kibontott
+
