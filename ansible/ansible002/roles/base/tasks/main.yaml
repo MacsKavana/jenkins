@@ -4,9 +4,14 @@
     path: /tmp/uj-file-1
     state: touch
 
-
 - name: titkos file
   copy:
     src: titkos
     dest: /tmp/kibontott
+
+- name: create file - utemezett
+  file:
+    path: /tmp/utemezett-file
+    state: touch
+
 
